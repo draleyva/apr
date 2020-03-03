@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BD2BB08E-D5E5-3180-A1FF-670AE8F685EC}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>apr-1</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\SFTdevelopment\library\ext\src\apr\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">apr-1.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">apr-1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\SFTdevelopment\library\ext\src\apr\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">apr-1.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">apr-1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\SFTdevelopment\library\ext\src\apr\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">apr-1.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">apr-1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\SFTdevelopment\library\ext\src\apr\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">apr-1.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">apr-1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment\library\ext\src\apr;C:\SFTdevelopment\library\ext\src\apr\include;C:\SFTdevelopment\library\ext\src\apr\include\arch\win32;C:\SFTdevelopment\library\ext\src\apr\include\arch\unix;C:\SFTdevelopment\library\ext\src\apr\include\private;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;APR_DECLARE_STATIC;WINNT;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;APR_DECLARE_STATIC;WINNT;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment\library\ext\src\apr;C:\SFTdevelopment\library\ext\src\apr\include;C:\SFTdevelopment\library\ext\src\apr\include\arch\win32;C:\SFTdevelopment\library\ext\src\apr\include\arch\unix;C:\SFTdevelopment\library\ext\src\apr\include\private;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment\library\ext\src\apr;C:\SFTdevelopment\library\ext\src\apr\include;C:\SFTdevelopment\library\ext\src\apr\include\arch\win32;C:\SFTdevelopment\library\ext\src\apr\include\arch\unix;C:\SFTdevelopment\library\ext\src\apr\include\private;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment\library\ext\src\apr;C:\SFTdevelopment\library\ext\src\apr\include;C:\SFTdevelopment\library\ext\src\apr\include\arch\win32;C:\SFTdevelopment\library\ext\src\apr\include\arch\unix;C:\SFTdevelopment\library\ext\src\apr\include\private;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;APR_DECLARE_STATIC;WINNT;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;APR_DECLARE_STATIC;WINNT;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment\library\ext\src\apr;C:\SFTdevelopment\library\ext\src\apr\include;C:\SFTdevelopment\library\ext\src\apr\include\arch\win32;C:\SFTdevelopment\library\ext\src\apr\include\arch\unix;C:\SFTdevelopment\library\ext\src\apr\include\private;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment\library\ext\src\apr;C:\SFTdevelopment\library\ext\src\apr\include;C:\SFTdevelopment\library\ext\src\apr\include\arch\win32;C:\SFTdevelopment\library\ext\src\apr\include\arch\unix;C:\SFTdevelopment\library\ext\src\apr\include\private;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment\library\ext\src\apr;C:\SFTdevelopment\library\ext\src\apr\include;C:\SFTdevelopment\library\ext\src\apr\include\arch\win32;C:\SFTdevelopment\library\ext\src\apr\include\arch\unix;C:\SFTdevelopment\library\ext\src\apr\include\private;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;APR_DECLARE_STATIC;WINNT;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;APR_DECLARE_STATIC;WINNT;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment\library\ext\src\apr;C:\SFTdevelopment\library\ext\src\apr\include;C:\SFTdevelopment\library\ext\src\apr\include\arch\win32;C:\SFTdevelopment\library\ext\src\apr\include\arch\unix;C:\SFTdevelopment\library\ext\src\apr\include\private;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment\library\ext\src\apr;C:\SFTdevelopment\library\ext\src\apr\include;C:\SFTdevelopment\library\ext\src\apr\include\arch\win32;C:\SFTdevelopment\library\ext\src\apr\include\arch\unix;C:\SFTdevelopment\library\ext\src\apr\include\private;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment\library\ext\src\apr;C:\SFTdevelopment\library\ext\src\apr\include;C:\SFTdevelopment\library\ext\src\apr\include\arch\win32;C:\SFTdevelopment\library\ext\src\apr\include\arch\unix;C:\SFTdevelopment\library\ext\src\apr\include\private;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;APR_DECLARE_STATIC;WINNT;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;APR_DECLARE_STATIC;WINNT;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment\library\ext\src\apr;C:\SFTdevelopment\library\ext\src\apr\include;C:\SFTdevelopment\library\ext\src\apr\include\arch\win32;C:\SFTdevelopment\library\ext\src\apr\include\arch\unix;C:\SFTdevelopment\library\ext\src\apr\include\private;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\SFTdevelopment\library\ext\src\apr;C:\SFTdevelopment\library\ext\src\apr\include;C:\SFTdevelopment\library\ext\src\apr\include\arch\win32;C:\SFTdevelopment\library\ext\src\apr\include\arch\unix;C:\SFTdevelopment\library\ext\src\apr\include\private;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\SFTdevelopment\library\ext\src\apr\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/SFTdevelopment/library/ext/src/apr/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/SFTdevelopment/library/ext/src/apr -BC:/SFTdevelopment/library/ext/src/apr --check-stamp-file C:/SFTdevelopment/library/ext/src/apr/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/SFTdevelopment/library/ext/src/apr/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.14\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\SFTdevelopment\library\ext\src\apr\CMakeFiles\3.14.0\CMakeCCompiler.cmake;C:\SFTdevelopment\library\ext\src\apr\CMakeFiles\3.14.0\CMakeRCCompiler.cmake;C:\SFTdevelopment\library\ext\src\apr\CMakeFiles\3.14.0\CMakeSystem.cmake;C:\SFTdevelopment\library\ext\src\apr\CMakeFiles\feature_tests.c;C:\SFTdevelopment\library\ext\src\apr\CMakeLists.txt;C:\SFTdevelopment\library\ext\src\apr\include\apr.hwc;C:\SFTdevelopment\library\ext\src\apr\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\SFTdevelopment\library\ext\src\apr\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/SFTdevelopment/library/ext/src/apr/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/SFTdevelopment/library/ext/src/apr -BC:/SFTdevelopment/library/ext/src/apr --check-stamp-file C:/SFTdevelopment/library/ext/src/apr/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/SFTdevelopment/library/ext/src/apr/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.14\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\SFTdevelopment\library\ext\src\apr\CMakeFiles\3.14.0\CMakeCCompiler.cmake;C:\SFTdevelopment\library\ext\src\apr\CMakeFiles\3.14.0\CMakeRCCompiler.cmake;C:\SFTdevelopment\library\ext\src\apr\CMakeFiles\3.14.0\CMakeSystem.cmake;C:\SFTdevelopment\library\ext\src\apr\CMakeFiles\feature_tests.c;C:\SFTdevelopment\library\ext\src\apr\CMakeLists.txt;C:\SFTdevelopment\library\ext\src\apr\include\apr.hwc;C:\SFTdevelopment\library\ext\src\apr\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\SFTdevelopment\library\ext\src\apr\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/SFTdevelopment/library/ext/src/apr/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/SFTdevelopment/library/ext/src/apr -BC:/SFTdevelopment/library/ext/src/apr --check-stamp-file C:/SFTdevelopment/library/ext/src/apr/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/SFTdevelopment/library/ext/src/apr/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.14\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\SFTdevelopment\library\ext\src\apr\CMakeFiles\3.14.0\CMakeCCompiler.cmake;C:\SFTdevelopment\library\ext\src\apr\CMakeFiles\3.14.0\CMakeRCCompiler.cmake;C:\SFTdevelopment\library\ext\src\apr\CMakeFiles\3.14.0\CMakeSystem.cmake;C:\SFTdevelopment\library\ext\src\apr\CMakeFiles\feature_tests.c;C:\SFTdevelopment\library\ext\src\apr\CMakeLists.txt;C:\SFTdevelopment\library\ext\src\apr\include\apr.hwc;C:\SFTdevelopment\library\ext\src\apr\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\SFTdevelopment\library\ext\src\apr\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/SFTdevelopment/library/ext/src/apr/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/SFTdevelopment/library/ext/src/apr -BC:/SFTdevelopment/library/ext/src/apr --check-stamp-file C:/SFTdevelopment/library/ext/src/apr/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/SFTdevelopment/library/ext/src/apr/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.14\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\SFTdevelopment\library\ext\src\apr\CMakeFiles\3.14.0\CMakeCCompiler.cmake;C:\SFTdevelopment\library\ext\src\apr\CMakeFiles\3.14.0\CMakeRCCompiler.cmake;C:\SFTdevelopment\library\ext\src\apr\CMakeFiles\3.14.0\CMakeSystem.cmake;C:\SFTdevelopment\library\ext\src\apr\CMakeFiles\feature_tests.c;C:\SFTdevelopment\library\ext\src\apr\CMakeLists.txt;C:\SFTdevelopment\library\ext\src\apr\include\apr.hwc;C:\SFTdevelopment\library\ext\src\apr\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\SFTdevelopment\library\ext\src\apr\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\atomic\win32\apr_atomic.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\dso\win32\dso.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\encoding\apr_escape.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\file_io\unix\copy.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\file_io\unix\fileacc.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\file_io\unix\filepath_util.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\file_io\unix\fullrw.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\file_io\unix\mktemp.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\file_io\unix\tempdir.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\file_io\win32\buffer.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\file_io\win32\dir.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\file_io\win32\filedup.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\file_io\win32\filepath.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\file_io\win32\filestat.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\file_io\win32\filesys.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\file_io\win32\flock.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\file_io\win32\open.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\file_io\win32\pipe.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\file_io\win32\readwrite.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\file_io\win32\seek.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\locks\win32\proc_mutex.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\locks\win32\thread_cond.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\locks\win32\thread_mutex.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\locks\win32\thread_rwlock.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\memory\unix\apr_pools.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\misc\unix\errorcodes.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\misc\unix\getopt.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\misc\unix\otherchild.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\misc\unix\version.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\misc\win32\charset.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\misc\win32\env.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\misc\win32\internal.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\misc\win32\misc.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\misc\win32\rand.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\misc\win32\start.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\misc\win32\utf8.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\mmap\unix\common.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\mmap\win32\mmap.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\network_io\unix\inet_ntop.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\network_io\unix\inet_pton.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\network_io\unix\multicast.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\network_io\unix\sockaddr.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\network_io\unix\socket_util.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\network_io\win32\sendrecv.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\network_io\win32\sockets.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\network_io\win32\sockopt.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\passwd\apr_getpass.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\poll\unix\poll.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\poll\unix\pollcb.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\poll\unix\pollset.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\poll\unix\select.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\poll\unix\wakeup.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\random\unix\apr_random.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\random\unix\sha2.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\random\unix\sha2_glue.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\shmem\win32\shm.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\strings\apr_cpystrn.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\strings\apr_cstr.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\strings\apr_fnmatch.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\strings\apr_snprintf.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\strings\apr_strings.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\strings\apr_strnatcmp.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\strings\apr_strtok.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\tables\apr_hash.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\tables\apr_skiplist.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\tables\apr_tables.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\threadproc\win32\proc.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\threadproc\win32\signals.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\threadproc\win32\thread.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\threadproc\win32\threadpriv.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\time\win32\time.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\time\win32\timestr.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\user\win32\groupinfo.c" />
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\user\win32\userinfo.c" />
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\apr\apr.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\SFTdevelopment\library\ext\src\apr\ZERO_CHECK.vcxproj">
+      <Project>{44259EE0-7752-3660-9595-EE0AF5D18B05}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\SFTdevelopment\library\ext\src\apr\test_char_header.vcxproj">
+      <Project>{5571BB7F-4E90-3730-90A8-5C77C25C73D0}</Project>
+      <Name>test_char_header</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

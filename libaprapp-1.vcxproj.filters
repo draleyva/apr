@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\misc\win32\apr_app.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SFTdevelopment\library\ext\src\apr\misc\win32\internal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\SFTdevelopment\library\ext\src\apr\apr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\SFTdevelopment\library\ext\src\apr\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7110688D-757B-3E37-8CEC-62B4DAA68BF8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C50DC49F-42BB-3CF9-A977-EB24ECA44BF5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
