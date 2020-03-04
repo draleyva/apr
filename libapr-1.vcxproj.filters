@@ -230,9 +230,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\SFTdevelopment\library\ext\src\apr\CMakeLists.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <ResourceCompile Include="C:\SFTdevelopment\library\ext\src\apr\libapr.rc">
       <Filter>Source Files</Filter>
     </ResourceCompile>

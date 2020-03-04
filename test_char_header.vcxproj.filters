@@ -7,7 +7,6 @@
     <CustomBuild Include="C:\SFTdevelopment\library\ext\src\apr\CMakeFiles\e68da1b3760dc0270a919d111dba267f\test_char_header.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\SFTdevelopment\library\ext\src\apr\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="C:\SFTdevelopment\library\ext\src\apr\CMakeFiles\test_char_header" />

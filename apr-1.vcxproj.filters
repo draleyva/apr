@@ -230,9 +230,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\SFTdevelopment\library\ext\src\apr\CMakeLists.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <Filter Include="Header Files">
       <UniqueIdentifier>{7110688D-757B-3E37-8CEC-62B4DAA68BF8}</UniqueIdentifier>
     </Filter>

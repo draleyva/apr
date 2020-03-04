@@ -1,0 +1,9 @@
+C:/SFTdevelopment/library/ext/src/apr/CMakeFiles/libapr-1.dir
+C:/SFTdevelopment/library/ext/src/apr/CMakeFiles/gen_test_char.dir
+C:/SFTdevelopment/library/ext/src/apr/CMakeFiles/libaprapp-1.dir
+C:/SFTdevelopment/library/ext/src/apr/CMakeFiles/test_char_header.dir
+C:/SFTdevelopment/library/ext/src/apr/CMakeFiles/apr-1.dir
+C:/SFTdevelopment/library/ext/src/apr/CMakeFiles/aprapp-1.dir
+C:/SFTdevelopment/library/ext/src/apr/CMakeFiles/INSTALL.dir
+C:/SFTdevelopment/library/ext/src/apr/CMakeFiles/ALL_BUILD.dir
+C:/SFTdevelopment/library/ext/src/apr/CMakeFiles/ZERO_CHECK.dir

@@ -1,2 +1,11 @@
-/CMakeFiles
 /CMakeCache.txt
+/.vs
+/apr-1.dir
+/aprapp-1.dir
+/gen_test_char.dir
+/libapr-1.dir
+/libaprapp-1.dir
+/x64
+/CMakeFiles/3.12.18081601-MSVC_2
+/Release
+/CMakeFiles/CMakeOutput.log
