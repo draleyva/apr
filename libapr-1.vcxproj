@@ -116,9 +116,10 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/SFTdevelopment/library/ext/src/apr/Debug/libapr-1.lib</ImportLibrary>
+      <ImportLibrary>../../lib$(PlatformArchitecture)/$(Configuration)/$(ProjectName).lib</ImportLibrary>
       <ProgramDataBaseFile>C:/SFTdevelopment/library/ext/src/apr/Debug/libapr-1.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
+      <OutputFile>../../dll$(PlatformArchitecture)/$(Configuration)/$(ProjectName)$(TargetExt)</OutputFile>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -159,9 +160,10 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/SFTdevelopment/library/ext/src/apr/Release/libapr-1.lib</ImportLibrary>
+      <ImportLibrary>../../lib$(PlatformArchitecture)/$(Configuration)/$(ProjectName).lib</ImportLibrary>
       <ProgramDataBaseFile>C:/SFTdevelopment/library/ext/src/apr/Release/libapr-1.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
+      <OutputFile>../../dll$(PlatformArchitecture)/$(Configuration)/$(ProjectName)$(TargetExt)</OutputFile>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -202,9 +204,10 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/SFTdevelopment/library/ext/src/apr/MinSizeRel/libapr-1.lib</ImportLibrary>
+      <ImportLibrary>../../lib$(PlatformArchitecture)/$(Configuration)/$(ProjectName).lib</ImportLibrary>
       <ProgramDataBaseFile>C:/SFTdevelopment/library/ext/src/apr/MinSizeRel/libapr-1.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
+      <OutputFile>../../dll$(PlatformArchitecture)/$(Configuration)/$(ProjectName)$(TargetExt)</OutputFile>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -244,9 +247,10 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/SFTdevelopment/library/ext/src/apr/RelWithDebInfo/libapr-1.lib</ImportLibrary>
+      <ImportLibrary>../../lib$(PlatformArchitecture)/$(Configuration)/$(ProjectName).lib</ImportLibrary>
       <ProgramDataBaseFile>C:/SFTdevelopment/library/ext/src/apr/RelWithDebInfo/libapr-1.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
+      <OutputFile>../../dll$(PlatformArchitecture)/$(Configuration)/$(ProjectName)$(TargetExt)</OutputFile>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
